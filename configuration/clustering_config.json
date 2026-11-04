@@ -1,0 +1,41 @@
+{
+  "algorithm": "KMeans",
+  "features": [
+    "user_latitude",
+    "user_longitude"
+  ],
+  "feature_preprocessing": null,
+  "coordinate_system_and_distance_assumption": null,
+  "fit_population": "eligible training users only (verify)",
+  "silhouette_search": {
+    "k_min": 2,
+    "k_max": 19,
+    "inclusive": true,
+    "criterion": "maximize silhouette coefficient",
+    "score_computation": null,
+    "tie_breaking": null
+  },
+  "ablation_fixed_k": [
+    3,
+    5,
+    10,
+    20,
+    50
+  ],
+  "random_seeds": [
+    91,
+    1,
+    2,
+    3,
+    4
+  ],
+  "init": null,
+  "n_init": null,
+  "max_iter": null,
+  "tolerance": null,
+  "assignment_for_test_users": "existing train users retain cluster; other eligible users assigned using training-fitted centroids (verify)",
+  "missing_coordinates_policy": null,
+  "cluster_membership_path": "clustering/cluster_membership.csv",
+  "silhouette_scores_path": "clustering/silhouette_scores.csv",
+  "warning": "Do not treat these unspecified parameters as defaults. Supply actual experiment values."
+}

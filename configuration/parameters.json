@@ -1,0 +1,41 @@
+{
+  "status": "TEMPLATE - verify all missing values against experimental code",
+  "alpha": null,
+  "mu": null,
+  "parameter_source": "Original LARES paper; exact numeric settings to be supplied",
+  "top_k_neighbors": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "rating_split": {
+    "type": "random_rating_level",
+    "train_fraction": 0.8,
+    "test_fraction": 0.2
+  },
+  "normalization": {
+    "method": null,
+    "fitting_scope": "training_only (verify)",
+    "lares_scope": "global_user_population",
+    "c_lares_scope": "within_cluster",
+    "exact_formula_reference": null
+  },
+  "prediction": {
+    "formula_reference": null,
+    "invalid_prediction_policy": "exclude_from_error_metric; report coverage",
+    "matched_observation_policy": "compare on common valid test pairs"
+  },
+  "runtime": {
+    "metric": "similarity_computation_wall_clock_seconds",
+    "kmeans_time_included": false,
+    "warmup_policy": null,
+    "cache_policy": null
+  }
+}

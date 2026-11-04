@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    91,
+    1,
+    2,
+    3,
+    4
+  ],
+  "number_of_runs": 5,
+  "split_seed_usage": "Same seed and split indices across all baselines within each run",
+  "kmeans_initialization_seed_usage": "Same corresponding seed for C-LARES within each run (verify)",
+  "split_unit": "observed_rating_interaction",
+  "split_ratio": {
+    "train": 0.8,
+    "test": 0.2
+  },
+  "split_library_and_function": null,
+  "split_shuffle_details": null,
+  "per_run_manifest": "splits/<dataset>/seed_<seed>.csv",
+  "note": "Record exact indices; seed alone does not guarantee reproduction across different preprocessing orders or library versions."
+}
