@@ -1,0 +1,5 @@
+dataset;seed;method;cluster;1-alpha;beta;mu_km;;;
+TripAdvisor 35K;91;LARES;global;0.8;0.2;250.0;;;
+TripAdvisor 35K;91;C-LARES;global;0.2;0.8;1000.0;;;
+TripAdvisor 35K;91;C-LARES;0;0.2;0.8;1000.0;;;
+TripAdvisor 35K;91;C-LARES;1;0.1;0.9;1000.0;;;

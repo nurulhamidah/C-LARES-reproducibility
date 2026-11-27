@@ -1,0 +1,19 @@
+dataset;seed;method;cluster;1-alpha;alpha;mu_km
+Yelp 64K;2;LARES;global;0.8;0.2;250.0
+Yelp 64K;2;LARES;0;0.8;0.2;250.0
+Yelp 64K;2;LARES;1;0.8;0.2;250.0
+Yelp 64K;2;C-LARES;global;0.8;0.2;1000.0
+Yelp 64K;2;C-LARES;0;0.7;0.3;1000.0
+Yelp 64K;2;C-LARES;1;0.8;0.2;1000.0
+Yelp 64K;2;LARES+radius;global;0.7;0.3;1000.0
+Yelp 64K;2;LARES+radius;0;0.7;0.3;1000.0
+Yelp 64K;2;LARES+radius;1;0.7;0.3;1000.0
+Yelp 64K;2;C-LARES+radius;global;0.7;0.3;1000.0
+Yelp 64K;2;C-LARES+radius;0;0.7;0.3;1000.0
+Yelp 64K;2;C-LARES+radius;1;0.8;0.2;1000.0
+Yelp 64K;2;LARES+blend;global;0.8;0.2;250.0
+Yelp 64K;2;LARES+blend;0;0.8;0.2;250.0
+Yelp 64K;2;LARES+blend;1;0.8;0.2;250.0
+Yelp 64K;2;C-LARES+blend;global;0.8;0.2;1000.0
+Yelp 64K;2;C-LARES+blend;0;0.7;0.3;1000.0
+Yelp 64K;2;C-LARES+blend;1;0.8;0.2;1000.0
